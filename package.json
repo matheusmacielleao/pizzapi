@@ -1,0 +1,17 @@
+{
+  "name": "pizzapi",
+  "version": "1.0.0",
+  "description": "a api for pizzarias ",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node dist/app.js",
+    "test": "test",
+    "build": "npx tsc"
+  },
+  "author": "matheus.m.leao",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "typescript": "^4.9.5"
+  }
+}
